@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=3 uid="uid://cumrqyg3yh38p"]
+
+[ext_resource type="PackedScene" uid="uid://dpmfgw72letl1" path="res://player.tscn" id="1_sr4l6"]
+[ext_resource type="PackedScene" uid="uid://bcil2xp78cuay" path="res://platform.tscn" id="2_tgjn3"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_sr4l6")]
+position = Vector2(-22, 314)
+scale = Vector2(0.3, 0.3)
+
+[node name="Platform" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(197, 404)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform2" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(111, 294)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform3" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(147, 427)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform4" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(249, 376)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform5" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(573, 286)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform6" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(662, 235)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform7" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(16, 456)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform8" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(514, 333)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform9" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(446, 393)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform10" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(365, 426)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform11" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(525, 189)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform12" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(220, 214)
+scale = Vector2(0.5, 0.5)
+
+[node name="Platform13" parent="." instance=ExtResource("2_tgjn3")]
+position = Vector2(56, 456)
+scale = Vector2(0.5, 0.5)
+metadata/_edit_group_ = true
